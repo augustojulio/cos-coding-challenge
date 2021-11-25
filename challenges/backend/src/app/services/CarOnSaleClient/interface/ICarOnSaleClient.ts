@@ -4,3 +4,4 @@
 export interface ICarOnSaleClient {
   getRunningAuctions(): Promise<ICarOnSaleClient>;
 }
+export var getRunningAuctions: ICarOnSaleClient;
