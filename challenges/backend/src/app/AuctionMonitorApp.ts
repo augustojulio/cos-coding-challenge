@@ -26,7 +26,8 @@ export class AuctionMonitorApp {
     });
     app.get("/v1/authentication/:mailAddress/registered", async (_req, res) => {
       res.sendStatus(204);
-      console.log(res);
+      // console.log(res);
+      return res;
     });
     // app.get("/v2/auction/seller/{userId}/running", async (_req, res)=>{
 
